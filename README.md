@@ -1,4 +1,5 @@
 ------Overview
+
 This project is basically a voice-controlled gadget. You press and hold a small touch sensor, and while you're holding it, a microphone connected to a tiny WiFi board (the ESP32-S3) records what you say. Once you let go, that recording gets sent over WiFi to your computer. On the computer, a program uses an AI model called Whisper to turn your speech into text, then checks if you said a keyword like "turn on" or "turn off." Based on what it hears, it sends a command back to the little board, which then turns an LED on or off.
 
 ----------------------------
