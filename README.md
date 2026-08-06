@@ -15,3 +15,8 @@ pip install openai-whisper websockets numpy torch
 <img width="2720" height="3024" alt="voice_assistant_architecture_esp32_whisper_en" src="https://github.com/user-attachments/assets/61e7b746-6e1c-47f8-b11b-a01376cd7ded" />
 
 --------------------------------
+
+------SHEET CONNECTION
+
+<img width="1169" height="827" alt="voice_control" src="https://github.com/user-attachments/assets/18196f1c-8374-432a-9208-e6d520571200" />
+
