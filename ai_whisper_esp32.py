@@ -54,6 +54,7 @@ async def audio_handler(websocket):
             text = result["text"].strip().lower()
             print(f"Final transcription: > {text} <\n")
 
+            # Option customized by users
             if "turn on" in text or "on" in text or "1" in text:
                 await websocket.send("LED_ON")
                 print("Command sent: Turn ON LED")
