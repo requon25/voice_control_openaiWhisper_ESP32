@@ -4,7 +4,7 @@ import websockets
 import whisper
 
 print("Loading Whisper model...")
-model = whisper.load_model("base")
+model = whisper.load_model("base") # Level of the OpenAI Whisper model to be used or downloaded
 print("Model ready for transcription.")
 
 
