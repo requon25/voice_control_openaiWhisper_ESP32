@@ -6,6 +6,8 @@ This project is basically a voice-controlled gadget. You press and hold a small 
 
 ------Requirements
 
+Install the webscokets library by Markus Sattler on Arduino IDE
+
 pip install openai-whisper websockets numpy torch
 
 --------------------------------
